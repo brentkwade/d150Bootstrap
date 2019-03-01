@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.offset:before {
+    height: 3.5rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+}
+
+/*--- Navbar ---*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, .6)!important;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #87CEFA;
+}
+
+/*--- Slider ---*/
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding: .5rem;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+
+.btn-lg:hover {
+    color: #87CEFA;
+}
+
+/*--- Landing Page ---*/
+
+.home-inner {
+    background-image: url(images/D150Banner3.png);
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    
+}
+
+
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.btn-md {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+
+.noshowButton {
+  border: none;
+  background-color: jumbotron;
+  cursor: pointer;
+  border-bottom-color: #009FD9;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+.noshowButton:hover {
+  background-color: #009FD9;
+}
+
+.noshowButton:active {
+  background-color: #009FD9;
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+.btnunder {
+  border-bottom-color: #009FD9;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+}
+
+.iconRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 80%;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.serviceTitle {
+  position: center;
+}
+
+
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card {
+   position: center;
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #009FD9;
+    margin: 0 auto 1rem;
+}

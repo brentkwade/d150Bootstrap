@@ -1,0 +1,23 @@
+{
+  "name": "d150bootstrap",
+  "version": "1.0.0",
+  "description": "D150 Website built utilizing Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brent Wade",
+  "license": "ISC",
+  "dependencies": {
+    "@ionic-native/web-server": "^5.2.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "server": "^1.0.18"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "http-server": "^0.11.1"
+  }
+}

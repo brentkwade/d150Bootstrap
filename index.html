@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/fixed.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+  <!---Start Home Section-->
+  <div id="home">
+
+    <!---Navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/D150LOGO3.PNG"> D150 Fueling
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#team">The Team</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!---Image Slider-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <!---Start Carousel Inner-->
+      <div class="carousel-inner" role="listbox">
+
+        <!---Image 1-->
+        <div class="carousel-item active" style="background-image: url(img/D1502Trucks.jpg);">
+          <div class="carousel-caption text-center">
+            <h1>Welcome to D150 Fueling</h1>
+            <h3>On-Site Fueling</h3>
+            <a class="btn btn-outline-light btn-lg" href="#services">Learn More</a>
+          </div>
+        </div>
+
+        <!--- Image 2-->
+        <div class="carousel-item" style="background-image: url(img/D150FuelingGuys.png);"></div>
+
+        <!--- Image 3-->
+        <div class="carousel-item" style="background-image: url(img/Wilmington_Delaware_skyline.png);"></div>
+
+      </div>
+      <!---End Carousel Inner-->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+    </div>
+    <!---End Image Slider-->
+
+  </div>
+  <!---End Home Section-->
+
+  <!---D150 Fueling Top Startup-->
+  <div id="about" class="offset">
+
+    <div class="col-12 narrow text-center ">
+      <h1>D150 Fueling: Our Mission</h1>
+      <div class="heading-underline"></div>
+      <p class="lead ">We are a mobile on-site fueling and fuel marketing company. We deliver fuel directly to vehicles' tanks via tank trucks
+        for commercial fleets during off hours. We are also developing technology to further optimize the fueling process
+        for fleet managers everywhere. D150 has been awarded the #1 spot on technical.ly's Delaware realLIST startups.</p>
+      <a class="btn btn-secondary btn-md " href="https://technical.ly/delaware/2019/01/28/delaware-these-are-your-2019-reallist-startups/ "
+        target="_blank ">Read the Article Here</a>
+    </div>
+
+  </div>
+  <!---End About-->
+
+  <!---Start Services & Products Section-->
+  <div id="services" class="offset">
+    <div class="jumbotron container-fluid">
+      <div class="col-12 text-center">
+        <h1 class="heading">Services &amp; Products</h1>
+        <div class="heading-underline"></div>
+      </div>
+
+
+      <div class="expando">
+        <div id="oneE">
+          <div class="topTitle centerText">
+            <h3>On-Site Fueling</h3>
+          </div>
+          <p style="margin-left: 10%; margin-right:10%;"> On-site fueling reduces wasted time by removing the need for your employees to stop and fill up at fueling stations,
+            saving thousands of dollars a year in wasted labor. We provide diesel delivery directly to your trucks’ fuel
+            tanks, at your business when your fleet or equipment is not in use. Our service will cost you less than your
+            local fueling station and your employees can start each day with a full tank of fuel. D150 Fueling works to optimize
+            businesses by lowering the cost and headache of fleet fueling.</p>
+        </div>
+        <div id="twoE">
+          <div class="topTitle centerText">
+            <h3>Fuel Cloud</h3>
+          </div>
+          <p style="margin-left: 10%; margin-right:10%;"> FuelCloud is a user-friendly portal to manage all the fuel purchased through D150 fueling and is supplied at no
+            cost to our customers.</p>
+          <p style="margin-left: 10%; margin-right:10%;">Through fuel cloud users can:</p>
+          <ul style="margin-left: 10%; margin-right:10%;">
+            <li style="margin-top: -10px; list-style-type: none;">Track and control every gallon dispensed into their trucks or on-site tanks</li>
+            <li style="margin-top: -10px; list-style-type: none;">Track fuel levels and send alerts to D150 when tank levels are low</li>
+            <li style="margin-top: -10px; list-style-type: none;">Automatically complete tax forms online, or create customized, comprehensive usage reports for your records to
+              export
+            </li>
+          </ul>
+          <p style="margin-top: -10px; margin-left: 10%; margin-right:10%;">The FuelCloud app is also available for the smartphones and tablets you already use for your business, giving users
+            instant access to control and authorize your fuel pumps.</p>
+
+        </div>
+        <div id="threeE">
+          <div class="topTitle centerText">
+            <h3>Additives and Lubricants</h3>
+          </div>
+          <p style="margin-left: 10%; margin-right:10%;">
+            We provide additives upon client request pre-mixed with the diesel fuel. This means your employees are no longer required
+            to add the additives themselves to both your vehicles’ tanks or your on-site bulk tanks. Contact us to learn
+            more about the additives we offer.
+          </p>
+        </div>
+        <div id="fourE">
+          <div class="topTitle centerText">
+            <h3>Bulk Fuel Delivery</h3>
+          </div>
+          <p style="margin-left: 10%; margin-right:10%;">
+            D150 Fueling's bulk fuel delivery is an efficient way to ensure you always have fuel on hand at an affordable price. Our
+            customer service will work with you to set up a plan for scheduled deliveries or be on call if you would prefer
+            fuel on an as needed basis.
+          </p>
+        </div>
+      </div>
+
+      <div class="narrow text-center">
+        <div class="col-12">
+          <p class="lead">Want to learn more about our services and products?</p>
+          <a class="btn btn-secondary btn-md" href="#contact">Contact Us</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!---End Services & Products Section-->
+
+  <!---Start Team Section-->
+  <div id="team" class="offset">
+
+    <div class="col-12 text-center">
+      <h1 class="heading">Meet the Team</h3>
+        <div class="heading-underline"></div>
+    </div>
+
+    <div class="row padding">
+
+      <div class="col-md-6 mx-auto">
+        <div class="card-deck mx-auto">
+
+          <div class="card">
+            <img class="card-img-top" src="img/deoHeadshot.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Amedeo DeLuca</h5>
+              <p class="card-text">Co-founder of D150 Fueling, CDL Class B driver, graduate of university of Delaware with degree in Civil Engineering.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="img/baileyd150headshot.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Bailey O'Brien</h5>
+              <p class="card-text">Co-founder of D150 Fueling, CDL Class B driver, graduate of university of Delaware with degree in Civil Engineering.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="img/samD150headshot.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Sam Bacharach</h5>
+              <p class="card-text">Experienced Co-Founder with a demonstrated history of working in the oil & energy industry. Skilled in Microsoft
+                Word, Technical Support, Entrepreneurship, Communication, and Accounting. Strong business development professional
+                with a Bachelor’s of Science (BS) focused in Economics and Finance from University of Delaware.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!--- End of row padding -->
+
+  </div>
+  <!---End Team Section-->
+
+  <!---Start Contact Section-->
+  <div id="contact" class="offset">
+
+    <footer>
+      <div class="row justify-content-center">
+
+        <div class="col-md-5 text-center">
+          <img src="img/D150LOGO3.png">
+          <p>We create a fueling program tailored to your fleets’ needs and desires. The choice is yours, how do you wish to
+            save time, money and emissions from fuel.</p>
+          <strong>Contact Information</strong>
+          <p>email: obrienba@d150fueling.com</p>
+
+          <a href="https://www.linkedin.com/company/d150-fueling-llc/about/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+
+      </div>
+      <!--- End of Row -->
+    </footer>
+
+  </div>
+  <!---End Contact Section-->
+
+  <!---Script Source Files-->
+  <script src="node_modules/jquery/dist/jquery.min.js "></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+  <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js "></script>
+  <!---End Source Files-->
+
+
+
+
+
+</body>
+
+</html>
